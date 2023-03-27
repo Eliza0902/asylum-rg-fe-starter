@@ -85,35 +85,34 @@ function RenderLandingPage(props) {
           </h3>
         </div>
       </div>
-      <div>
-        {/* Bottom Section: Add code here for the graphs section for your first ticket */}
-        {/* <div className="bottom-section">*/}
-        <div classname="bottom-section">
-          <h1>Systemic Disparity Insights</h1>
-          <div className="data">
-            <div className="data-container-one">
-              <h2>36%</h2>
-              <h3>
-                By the end of the Trump administration, the average asylum
-                office grant rate had fallen 36 percent from an average of 44
-                percent in fiscal year 2016 to 28 percent in fiscal year 2020.
-              </h3>
-            </div>
-            <div className="data-container-two">
-              <h2>5%</h2>
-              <h3>
-                The New York asylum office grant rate dropped to 5 percent in
-                fiscal year 2020.
-              </h3>
-            </div>
-            <div className="data-container-three">
-              <h2>6x Lower</h2>
-              <h3>
-                Between fiscal year 2017 and 2020, the New York asylum office’s
-                average grant rate was six times lower than the San Francisco
-                asylum office.
-              </h3>
-            </div>
+
+      {/* Bottom Section: Add code here for the graphs section for your first ticket */}
+      {/* <div className="bottom-section">*/}
+      <div className="bottom-section">
+        <h1>Systemic Disparity Insights</h1>
+        <div className="data">
+          <div className="data-container-one">
+            <h2>36%</h2>
+            <h3>
+              By the end of the Trump administration, the average asylum office
+              grant rate had fallen 36 percent from an average of 44 percent in
+              fiscal year 2016 to 28 percent in fiscal year 2020.
+            </h3>
+          </div>
+          <div className="data-container-two">
+            <h2>5%</h2>
+            <h3>
+              The New York asylum office grant rate dropped to 5 percent in
+              fiscal year 2020.
+            </h3>
+          </div>
+          <div className="data-container-three">
+            <h2>6x Lower</h2>
+            <h3>
+              Between fiscal year 2017 and 2020, the New York asylum office’s
+              average grant rate was six times lower than the San Francisco
+              asylum office.
+            </h3>
           </div>
         </div>
 
