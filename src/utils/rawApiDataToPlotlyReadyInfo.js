@@ -14,10 +14,12 @@ const rawApiDataToPlotlyReadyInfo = (view, office, data) => {
   let rowItem;
   let rowsForTable;
   let yearMinMax = []; //variable to set minYear and MaxYear
-  for (let yearResults of data.yearResults) {
-    yearMinMax.push(yearResults['fiscal_year']);
+  console.log(data);
+  if (data) {
+    for (let yearResults of data['yearResults']) {
+      yearMinMax.push(yearResults['fiscal_year']);
+    }
   }
-
   const yearByOfficeByGrant = {}; //Object that contacts year by Office by grant rate information
   for (let office of data['yearResults']) {
     if (!yearByOfficeByGrant[office['fiscal_year']])
